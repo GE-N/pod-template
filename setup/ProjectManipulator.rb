@@ -34,7 +34,7 @@ module Pod
 
       rename_files
       rename_project_folder
-      add_swiftlint_metadata
+      # add_swiftlint_metadata
 
       if @use_tvlapplication
         add_tvlapplication_to_appdelegate
