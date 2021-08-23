@@ -87,7 +87,7 @@ module Pod
       rename_template_files
       add_pods_to_podfile
       customise_prefix
-      copy_plist
+      # copy_plist
       run_pod_install
 
       @message_bank.farewell_message
@@ -155,7 +155,6 @@ module Pod
       end.join("\n    ")
       pod_header = "
 source 'https://cdn.cocoapods.org/'
-source 'git@github.com:traveloka/Specs.git'
 
 platform :ios, '#{IOS_PLATFORM}'
 inhibit_all_warnings!
