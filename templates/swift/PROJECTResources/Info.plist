@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.traveloka.PROJECTResources</string>
+	<string>net.appsynth.PROJECTResources</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -15,7 +15,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2020 Traveloka. All rights reserved.</string>
+	<string>Copyright © 2020 Appsynth. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
 </dict>

@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B102813B24A20424000BC503 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B102813924A20424000BC503 /* GoogleService-Info.plist */; };
 		B1698C6325E4E25900070D84 /* EarlGreyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1698C6225E4E25900070D84 /* EarlGreyTest.swift */; };
 		B1698C7025E4E2A200070D84 /* PROJECTEarlGreyHelper.bundle in Copy Helper Bundle */ = {isa = PBXBuildFile; fileRef = B1698C5225E4E24A00070D84 /* PROJECTEarlGreyHelper.bundle */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		B1698C8125E4E31100070D84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1698C7D25E4E31100070D84 /* InfoPlist.strings */; };
-		B1698C8225E4E31100070D84 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1698C7F25E4E31100070D84 /* Localizable.strings */; };
 		B1B16F2324165ED50057E2A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B16F2224165ED50057E2A7 /* AppDelegate.swift */; };
 		B1B16F2724165ED50057E2A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B16F2624165ED50057E2A7 /* ViewController.swift */; };
 		B1B16F2F24165ED60057E2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B16F2D24165ED60057E2A7 /* LaunchScreen.storyboard */; };
@@ -51,25 +48,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B102813924A20424000BC503 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B102813A24A20424000BC503 /* Traveloka Staging-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Traveloka Staging-Info.plist"; sourceTree = "<group>"; };
 		B1698C5225E4E24A00070D84 /* PROJECTEarlGreyHelper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTEarlGreyHelper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1698C5425E4E24A00070D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1698C6025E4E25900070D84 /* PROJECTEarlGreyTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTEarlGreyTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1698C6225E4E25900070D84 /* EarlGreyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGreyTest.swift; sourceTree = "<group>"; };
 		B1698C6425E4E25900070D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1698C7E25E4E31100070D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = ../../../Traveloka/Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B1698C8025E4E31100070D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = ../../../Traveloka/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B1698C8825E4E31F00070D84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ../../../Traveloka/en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B1698C8925E4E31F00070D84 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = ../../../Traveloka/th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B1698C8A25E4E31F00070D84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ../../../Traveloka/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B1698C8B25E4E31F00070D84 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ../../../Traveloka/ms.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B1698C8C25E4E31F00070D84 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ../../../Traveloka/ms.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B1698C8D25E4E31F00070D84 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = ../../../Traveloka/vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B1698C8E25E4E31F00070D84 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = ../../../Traveloka/vi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B1698C8F25E4E31F00070D84 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = ../../../Traveloka/id.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B1698C9025E4E31F00070D84 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = ../../../Traveloka/th.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B1698C9125E4E31F00070D84 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = ../../../Traveloka/id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B173B26B25D23792007086CD /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		B1B16F0024165E6E0057E2A7 /* PROJECT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PROJECT.h; sourceTree = "<group>"; };
 		B1B16F0124165E6E0057E2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +66,7 @@
 		B1C111D5241F5F630067A7C7 /* PROJECTResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C111D7241F5F630067A7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1C111DB241F5F710067A7C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5BF845626D3B64F0027663D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,11 +166,8 @@
 			children = (
 				B1B16F2224165ED50057E2A7 /* AppDelegate.swift */,
 				B1B16F2624165ED50057E2A7 /* ViewController.swift */,
+				E5BF845626D3B64F0027663D /* Info.plist */,
 				B1B16F2D24165ED60057E2A7 /* LaunchScreen.storyboard */,
-				B1698C7D25E4E31100070D84 /* InfoPlist.strings */,
-				B1698C7F25E4E31100070D84 /* Localizable.strings */,
-				B102813924A20424000BC503 /* GoogleService-Info.plist */,
-				B102813A24A20424000BC503 /* Traveloka Staging-Info.plist */,
 			);
 			path = SandboxApp;
 			sourceTree = "<group>";
@@ -315,7 +296,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = Traveloka;
+				ORGANIZATIONNAME = Appsynth;
 				TargetAttributes = {
 					B1698C5125E4E24A00070D84 = {
 						CreatedOnToolsVersion = 12.1;
@@ -381,9 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1B16F2F24165ED60057E2A7 /* LaunchScreen.storyboard in Resources */,
-				B1698C8225E4E31100070D84 /* Localizable.strings in Resources */,
-				B1698C8125E4E31100070D84 /* InfoPlist.strings in Resources */,
-				B102813B24A20424000BC503 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +391,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint lint\n";
+			shellScript = "# ${PODS_ROOT}/SwiftLint/swiftlint lint\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -473,32 +451,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B1698C7D25E4E31100070D84 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1698C7E25E4E31100070D84 /* Base */,
-				B1698C8925E4E31F00070D84 /* th */,
-				B1698C8A25E4E31F00070D84 /* en */,
-				B1698C8B25E4E31F00070D84 /* ms */,
-				B1698C8D25E4E31F00070D84 /* vi */,
-				B1698C9125E4E31F00070D84 /* id */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B1698C7F25E4E31100070D84 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1698C8025E4E31100070D84 /* Base */,
-				B1698C8825E4E31F00070D84 /* en */,
-				B1698C8C25E4E31F00070D84 /* ms */,
-				B1698C8E25E4E31F00070D84 /* vi */,
-				B1698C8F25E4E31F00070D84 /* id */,
-				B1698C9025E4E31F00070D84 /* th */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		B1B16F2D24165ED60057E2A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -717,7 +669,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.traveloka.PROJECTTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.appsynth.PROJECTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -734,7 +686,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.traveloka.PROJECTTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.appsynth.PROJECTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -743,15 +695,14 @@
 		B1B16F3124165ED60057E2A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 749C89GSR4;
-				INFOPLIST_FILE = "SandboxApp/Traveloka Staging-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SandboxApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.traveloka.SandboxApp;
+				PRODUCT_BUNDLE_IDENTIFIER = net.appsynth.SandboxApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -760,15 +711,14 @@
 		B1B16F3224165ED60057E2A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 749C89GSR4;
-				INFOPLIST_FILE = "SandboxApp/Traveloka Staging-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SandboxApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.traveloka.SandboxApp;
+				PRODUCT_BUNDLE_IDENTIFIER = net.appsynth.SandboxApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -782,7 +732,7 @@
 				DEVELOPMENT_TEAM = 749C89GSR4;
 				INFOPLIST_FILE = PROJECTResources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = com.traveloka.PROJECTResources;
+				PRODUCT_BUNDLE_IDENTIFIER = net.appsynth.PROJECTResources;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
@@ -797,7 +747,7 @@
 				DEVELOPMENT_TEAM = 749C89GSR4;
 				INFOPLIST_FILE = PROJECTResources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = com.traveloka.PROJECTResources;
+				PRODUCT_BUNDLE_IDENTIFIER = net.appsynth.PROJECTResources;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
