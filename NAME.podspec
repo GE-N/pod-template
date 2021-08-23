@@ -39,10 +39,10 @@ TODO: Add long description of the pod here.
   s.test_spec '${POD_NAME}Tests' do |test_spec|
     test_spec.source_files      = 'Tests/**/*.{m,swift}'
 
-    test_spec.dependency "TVLTestKit"
+    # test_spec.dependency "TVLTestKit"
 
     # This prefix header is so that you don't need to import nimble or quick on objc files repeatedly
-    test_spec.prefix_header_contents = '#define QUICK_DISABLE_SHORT_SYNTAX 1', '@import Nimble;', '@import OCMock;', '@import Quick;'
+    # test_spec.prefix_header_contents = '#define QUICK_DISABLE_SHORT_SYNTAX 1', '@import Nimble;', '@import OCMock;', '@import Quick;'
   end
 
   # s.public_header_files = '${POD_NAME}/**/*.h'
@@ -60,12 +60,4 @@ TODO: Add long description of the pod here.
     ]
   }
 
-  # Common modules. You may delete one of these module if you don't need it.
-  # Don't forget to delete the dependency on your module Podfile too and run pod install.
-  s.dependency 'TVLFoundation'
-  s.dependency 'TVLKit'
-  s.dependency 'TVLNetwork'
-  s.dependency 'TVLStorage'
-  s.dependency 'TVLTracking'
-  s.dependency 'TVLUI'
 end
