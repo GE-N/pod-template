@@ -14,7 +14,7 @@ module Pod
       @xcodeproj_path = options.fetch(:xcodeproj_path)
       @configurator = options.fetch(:configurator)
       @platform = options.fetch(:platform)
-      @use_tvlapplication = options.fetch(:use_tvlapplication)
+      # @use_tvlapplication = options.fetch(:use_tvlapplication)
       @remove_demo_target = options.fetch(:remove_demo_project)
     end
 
@@ -36,9 +36,9 @@ module Pod
       rename_project_folder
       # add_swiftlint_metadata
 
-      if @use_tvlapplication
-        add_tvlapplication_to_appdelegate
-      end
+      # if @use_tvlapplication
+      #   add_tvlapplication_to_appdelegate
+      # end
     end
 
     def add_tvlapplication_to_appdelegate

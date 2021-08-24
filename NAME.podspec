@@ -39,25 +39,11 @@ TODO: Add long description of the pod here.
   s.test_spec '${POD_NAME}Tests' do |test_spec|
     test_spec.source_files      = 'Tests/**/*.{m,swift}'
 
-    # test_spec.dependency "TVLTestKit"
-
     # This prefix header is so that you don't need to import nimble or quick on objc files repeatedly
     # test_spec.prefix_header_contents = '#define QUICK_DISABLE_SHORT_SYNTAX 1', '@import Nimble;', '@import OCMock;', '@import Quick;'
   end
 
   # s.public_header_files = '${POD_NAME}/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-
-  s.pod_target_xcconfig = {
-    "GCC_PREPROCESSOR_DEFINITIONS" => "MAS_SHORTHAND",
-    "WARNING_CFLAGS" => [
-      "-Werror=protocol",
-      "-Werror=objc-protocol-property-synthesis",
-      "-Werror=incomplete-implementation",
-      "-Werror=duplicate-method-match",
-      "-Werror=nonnull",
-      "-Werror=nullability-completeness"
-    ]
-  }
 
 end
