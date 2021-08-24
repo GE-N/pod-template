@@ -12,8 +12,8 @@
 		B1B16F2324165ED50057E2A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B16F2224165ED50057E2A7 /* AppDelegate.swift */; };
 		B1B16F2724165ED50057E2A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B16F2624165ED50057E2A7 /* ViewController.swift */; };
 		B1B16F2F24165ED60057E2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B16F2D24165ED60057E2A7 /* LaunchScreen.storyboard */; };
-		B1B16F37241660390057E2A7 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B16F35241660390057E2A7 /* Tests.swift */; };
 		B1C111DC241F5F710067A7C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C111DB241F5F710067A7C7 /* Images.xcassets */; };
+		E520CBEB26D4FD3000DDCB1D /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E520CBEA26D4FD3000DDCB1D /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,11 +61,11 @@
 		B1B16F2224165ED50057E2A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1B16F2624165ED50057E2A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1B16F2E24165ED60057E2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B1B16F35241660390057E2A7 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		B1B16F36241660390057E2A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1C111D5241F5F630067A7C7 /* PROJECTResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C111D7241F5F630067A7C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1C111DB241F5F710067A7C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E520CBEA26D4FD3000DDCB1D /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		E5BF845626D3B64F0027663D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,7 +175,7 @@
 		B1B16F34241660390057E2A7 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B1B16F35241660390057E2A7 /* Tests.swift */,
+				E520CBEA26D4FD3000DDCB1D /* Tests.swift */,
 				B1B16F36241660390057E2A7 /* Info.plist */,
 			);
 			path = Tests;
@@ -307,6 +307,7 @@
 					};
 					B1B16F0524165E6E0057E2A7 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1250;
 					};
 					B1B16F1F24165ED50057E2A7 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -415,7 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1B16F37241660390057E2A7 /* Tests.swift in Sources */,
+				E520CBEB26D4FD3000DDCB1D /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +662,7 @@
 		B1B16F1524165E6E0057E2A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 749C89GSR4;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -671,6 +673,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.appsynth.PROJECTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -678,6 +681,7 @@
 		B1B16F1624165E6E0057E2A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 749C89GSR4;
 				INFOPLIST_FILE = Tests/Info.plist;

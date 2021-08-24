@@ -1,5 +1,5 @@
-install! 'cocoapods'
-# :generate_multiple_pod_projects => true,
+install! 'cocoapods',
+:generate_multiple_pod_projects => true
 # :incremental_installation => true
 
 ${HEADER_PODS}
