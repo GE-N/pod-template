@@ -51,8 +51,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B1698C5F25E4E25900070D84"
-               BuildableName = "PROJECTEarlGreyTest.xctest"
-               BlueprintName = "PROJECTEarlGreyTest"
+               BuildableName = "PROJECTUITest.xctest"
+               BlueprintName = "PROJECTUITest"
                ReferencedContainer = "container:PROJECT.xcodeproj">
             </BuildableReference>
          </TestableReference>

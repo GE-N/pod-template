@@ -1,11 +1,3 @@
-//
-//  EarlGreyTest.swift
-//  EarlGreyTest
-//
-//  Created by hendy.christianto on 23/02/21.
-//  Copyright © 2021 Traveloka. All rights reserved.
-//
-
 import XCTest
 
 class EarlGreyTest: XCTestCase {

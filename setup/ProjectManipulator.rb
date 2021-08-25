@@ -414,12 +414,8 @@ RUBY
         File.rename(project_folder + "/PROJECTResources", project_folder + "/" + @configurator.pod_name + "Resources")
       end
 
-      if Dir.exist? project_folder + "/PROJECTEarlGreyHelper"
-        File.rename(project_folder + "/PROJECTEarlGreyHelper", project_folder + "/" + @configurator.pod_name + "EarlGreyHelper")
-      end
-
-      if Dir.exist? project_folder + "/PROJECTEarlGreyTest"
-        File.rename(project_folder + "/PROJECTEarlGreyTest", project_folder + "/" + @configurator.pod_name + "EarlGreyTest")
+      if Dir.exist? project_folder + "/PROJECTUITest"
+        File.rename(project_folder + "/PROJECTUITest", project_folder + "/" + @configurator.pod_name + "UITest")
       end
     end
 
