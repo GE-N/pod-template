@@ -73,14 +73,16 @@ module Pod
     def run
       @message_bank.welcome_message
 
-      framework = self.ask_with_answers("What language do you want to use?", ["Swift", "ObjC"]).to_sym
-      case framework
-        when :swift
-          ConfigureSwift.perform(configurator: self)
+      
+      # framework = self.ask_with_answers("What language do you want to use?", ["Swift", "ObjC"]).to_sym
+      # case framework
+      #   when :swift
+      #     ConfigureSwift.perform(configurator: self)
 
-        when :objc
-          ConfigureIOS.perform(configurator: self)
-      end
+      #   when :objc
+      #     ConfigureIOS.perform(configurator: self)
+      # end
+      ConfigureSwift.perform(configurator: self)
 
       replace_variables_in_files
       clean_template_files
@@ -117,8 +119,8 @@ module Pod
 
     def replace_variables_in_files
       podspec_file_names = ['NAME.podspec', podfile_path]
-      buck_file_names = ['BUCK', podfile_path]
-      bazel_file_names = ['BUILD', podfile_path]
+      # buck_file_names = ['BUCK', podfile_path]
+      # bazel_file_names = ['BUILD', podfile_path]
 
       podspec_file_names.each do |file_name|
         text = File.read(file_name)
@@ -131,17 +133,17 @@ module Pod
         File.open(file_name, "w") { |file| file.puts text }
       end
 
-      buck_file_names.each do |file_name|
-        text = File.read(file_name)
-        text.gsub!("${POD_NAME}", @pod_name)
-        File.open(file_name, "w") { |file| file.puts text }
-      end
+      # buck_file_names.each do |file_name|
+      #   text = File.read(file_name)
+      #   text.gsub!("${POD_NAME}", @pod_name)
+      #   File.open(file_name, "w") { |file| file.puts text }
+      # end
 
-      bazel_file_names.each do |file_name|
-        text = File.read(file_name)
-        text.gsub!("${POD_NAME}", @pod_name)
-        File.open(file_name, "w") { |file| file.puts text }
-      end
+      # bazel_file_names.each do |file_name|
+      #   text = File.read(file_name)
+      #   text.gsub!("${POD_NAME}", @pod_name)
+      #   File.open(file_name, "w") { |file| file.puts text }
+      # end
     end
 
     def add_pod_to_podfile podname
